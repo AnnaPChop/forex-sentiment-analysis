@@ -6,7 +6,7 @@ import pandas as pd
 def get_forex_data(from_symbol='EUR', to_symbol='USD', outputsize='compact'):
     # Cargar clave API desde .env
     load_dotenv()
-    api_key = os.getenv('ALPHA_VANTAGE_API_KEY')
+    api_key = os.getenv('XDTX7HR5YI6IE8YC')
 
     if not api_key:
         raise ValueError("No se encontró la clave API. Asegúrate de tener un archivo .env con ALPHA_VANTAGE_API_KEY.")
